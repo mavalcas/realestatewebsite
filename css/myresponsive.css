@@ -1,0 +1,160 @@
+/* Large screens ----------- */
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1824px) {
+	 .navbar-right li a {
+    	margin: 0 0 0 10px;
+    	padding: 5px 0 5px 0;
+    	color: blue;
+    }
+     .navbar-fixed-top .nav {
+        color: blue;
+    }
+
+    .caption1 {
+	width: 33%;
+	margin: 0 auto;
+}
+
+
+	 .caption2 {
+	width: 23%;
+	margin: 0 auto;
+}
+	.caption3 {
+	width: 18%;
+	margin: 0 auto;
+}
+ 	.caption4 {
+	width: 33%;
+	margin: 0 auto;
+}
+ .caption5 {
+	width: 23%;
+	margin: 0 auto;
+}
+	 .caption5b {
+	width: 23%;
+	margin: 0 auto;
+}
+	 .caption6 {
+	width: 23%;
+	margin: 0 auto;
+}
+
+	.titlecaption {
+	font-size: 21px;
+	padding-bottom: 9px;
+	font-weight: bold;
+}
+
+	.captionp {
+		font-size: 17px;
+	}
+	
+	.logotitle {
+	font-size: 18px;
+	margin: 16px 0px 8px 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+	.logotitle span {
+	font-size: 13px;
+	text-transform: lowercase;
+}
+	.logo {
+	width: 180px;
+	height: 80px
+}
+	.dropdowns {
+		color: blue;
+		text-align: center;
+		
+	} 
+	
+	.slides {
+		font-size: 26px;
+		font-weight: bold;
+	}
+	
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	 .navbar-right li a {
+    	margin: 0 0 0 5px;
+    	padding: 5px 0 5px 0;
+    	color: blue;
+    }
+     .navbar-fixed-top .nav {
+        color: blue;
+    }
+    
+    .caption1 {
+	width: 63%;
+	margin: 0 auto;
+}
+
+	 .caption2 {
+	width: 63%;
+	margin: 0 auto;
+}
+ 	.caption4 {
+	width: 63%;
+	margin: 0 auto;
+}
+ .caption5 {
+	width: 63%;
+	margin: 0 auto;
+}
+
+	 .caption6 {
+	width: 30%;
+	margin: 0 auto;
+}
+
+	.titlecaption {
+	font-size: 21px;
+	padding-bottom: 9px;
+	font-weight: bold;
+}
+
+	.captionp {
+		font-size: 13px;
+	}
+	
+	.logotitle {
+	font-size: 10px;
+	margin: 0px 0px 8px 0;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+	.logotitle span {
+	font-size: 13px;
+	text-transform: lowercase;
+}
+	.logo {
+	width: 10px;
+	height: 50px
+}
+	.dropdowns {
+		color: blue;
+		text-align: center;
+	} 
+	
+	
+}
+@media only screen and (min-device-width : 480px) and (max-device-width : 768px) {
+	.logo {
+		width: 10px;
+	}
+}
+
+/*Media Queries*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+}
+
+
+

@@ -1,0 +1,1144 @@
+/* Container */
+.container-fluid {
+	background: #FFFFFF;
+	margin: 20px auto 10px;
+	padding: 20px 40px 0;
+	width: 80%;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Page Header */
+.page-header {
+	background: #00aa77;
+	margin: -30px -40px 40px;
+	padding: 20px 40px;
+	border-top: 4px solid #ccc;
+	color: #999;
+	text-transform: uppercase;
+}
+.page-header h3 {
+	line-height: 0.78 rem;
+	color: #000;
+}
+
+/* Thumbnail Box */
+.caption h4 {
+	font-size: 1rem;
+	color: #444;
+}
+.caption p {
+	font-size: 0.75 rem;
+	color: #999;
+}
+.btn.btn-mini {
+	font-size: 0.63 rem;
+}
+
+/* Carousel Control */
+.control-box {
+	text-align: right;
+	width: 100%;
+}
+.carousel-control2 {
+	background: blue;
+	border: 0px;
+	border-radius: 30px;
+	display: inline-block;
+	font-size: 34px;
+	font-weight: 200;
+	line-height: 18px;
+	opacity: 0.5;
+	padding: 4px 10px 0px;
+	position: static;
+	height: 40px;
+	width: 25px;
+}
+
+p.right {
+	float: right;
+}
+
+/* Mobile Only */
+@media (max-width: 767px) {
+	.page-header, .control-box {
+		text-align: center;
+	}
+}
+@media (max-width: 479px) {
+	.caption {
+		word-break: break-all;
+	}
+}
+
+
+::selection {
+	background: #ff5e99;
+	color: #FFFFFF;
+	text-shadow: 0;
+}
+::-moz-selection {
+	background: #ff5e99;
+	color: #FFFFFF;
+}
+
+a, a:focus, a:active, a:hover, object, embed {
+	outline: none;
+}
+:-moz-any-link:focus {
+	outline: none;
+}
+input::-moz-focus-inner {
+	border: 0;
+}
+
+/*CSS for recent properties*/
+
+
+
+
+
+
+header .header-info {
+	background: #f5f5f5;
+	border-bottom: solid 1px #ddd;
+	padding: 5px 0 5px 0;
+}
+
+#firstmenu {
+	color: blue;
+	padding: 15px 5px 15px 5px;
+}
+
+#firstmenu:hover {
+	text-decoration: none;
+	display: block;
+	background: black;
+	color: #fff;
+}
+
+.inviertamenu {
+	width: 20%;
+}
+
+/*Slider changes*/
+.carousel-caption {
+	width: 20%;
+}
+
+.titlecaption {
+	font-size: 33px;
+	padding-bottom: 16px;
+	font-weight: bold;
+}
+
+/*Slider changes*/
+
+p {
+	font-size: 16px;
+}
+
+.col-md-6 img {
+	width: 98%;
+	margin: 0 auto;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+}
+
+.col-md-6 h4 {
+	margin: 10px 0 18px 0;
+	text-align: center;
+	font-size: 22px;
+	border: 1px solid green;
+	padding: 5px 5px 5px 5px;
+}
+
+.spacer {
+	margin: 10px 0 20px 0;
+}
+
+
+.carousel-caption {
+	width: 30%;
+}
+
+.texto0 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: justify;
+	font-size: 14px;
+}
+
+.texto2 {
+	padding-top: 20px;
+	text-align: justify;
+	font-size: 14px;
+}
+
+.texto1 {
+	text-align: justify;
+	font-size: 14px;
+}
+
+/*CSS For 3 icons in the middle part*/
+
+.iconimage {
+	width: 20%;
+	float: left;
+}
+
+/*Form para el contacto*/
+input[type="text"] {
+	width: 300px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+textarea {
+	width: 300px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+label {
+	color: #B4886B;
+	font-weight: bold;
+	font-size: 15px;
+	display: block;
+	float: left;
+}
+
+/*Fotos footer*/
+.fotosfooter {
+	margin: 5px 0px 5px 0px;
+}
+
+/*Slider info boxes*/
+.slider-info {
+	width: 10%;
+}
+
+/*Sidebar */
+.sidebarclass {
+	width: 100%;
+}
+
+/*Small images of properties*/
+.imgproperty {
+	padding: 1% 0 0 0;
+}
+
+.popup-gallery   img {
+	-webkit-box-shadow: 3px 3px 3px #7C7C7C;
+	box-shadow: 3px 3px 3px #7C7C7C;
+	width: 24.5%;
+	margin: 2% 0 0 0;
+}
+
+.videoproperty {
+	width: 70%;
+	margin: 0px 110px 0px 110px;
+}
+
+.bulletpoints li {
+	font-size: 16px;
+}
+
+.lt_content p {
+	text-align: justify;
+}
+
+/*CSS fOR Invierta con nos*/
+#articleinvierta {
+	text-align: justify;
+}
+
+#sloganarticle {
+	font-style: italic;
+}
+
+#titleproperties {
+	font-size: 33px;
+}
+
+#subheader {
+	margin-top: 5px;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+	
+	
+	/*Slider inner*/
+	.caption1 {
+		width: 33%;
+	}
+
+	.caption2 {
+		width: 23%;
+	}
+	.caption3 {
+		width: 18%;
+	}
+	.caption4 {
+		width: 33%;
+	}
+	.caption5 {
+		width: 23%;
+	}
+	.caption5b {
+		width: 23%;
+	}
+	.caption6 {
+		width: 23%;
+	}
+
+	.titlecaption {
+		font-size: 21px;
+		padding-bottom: 9px;
+		font-weight: bold;
+	}
+
+	.captionp {
+		font-size: 17px;
+	}
+	
+	/*Testimonies*/
+	.slides {
+		font-size: 26px;
+		font-weight: bold;
+	}
+	/*Footer*/
+	footer {
+		border-top: 2px solid green;
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+		background-image: url('../img/footerback.png');
+	}
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+	
+	/*Navbar*/
+	.navbar-brand {
+		float: left;
+		height: 60px;
+		width: 230px;
+		padding: 0 0px 0 32px;
+	}
+	
+	.navbar-fixed-top {
+		background-color: #fff;
+		width: 100%;
+	}
+	
+	.navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+		padding-left: 30px;
+	}
+
+	.navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse a {
+		text-align: center;
+	}
+
+	.navbar-nav > li > a {
+		height: 49px;
+		font-size: 13px;
+	}
+	
+
+	.navbar-fixed-top .navbar-right li a:hover {
+		height: 49px;
+		padding: 0 auto;
+		background-color: green;
+		color: white;
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+	}
+
+	.navbar-nav > li > .iniciomenu {
+		height: 49px;
+	}
+	
+		/*Subheader*/
+	#subheader {
+    background: url("../img/bg-subheader.jpg") no-repeat scroll center top #eee;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    height: 70px;
+	}
+
+	/*CSS FOR OPPORTUNITY*/
+	.opportunity {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	
+	#greatopportunity {
+		font-size: 24px;
+		text-align: center;
+	}
+	
+	.opportunitydescrip {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.row-fluid  .span4  {
+    width: 100%;
+	}
+	
+	.bg-primary {
+		padding: 5px 9px 5px 9px;
+		font-size: 16px;
+		text-align: justify;
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+	}
+
+
+		/*CSS FOR 3 MIDDLE TEXTS: Respon, seriedad, etc*/
+	.iconimage {
+		width: 13%;
+		float: left;
+		padding: 0 14px 0 0;
+		left: 0;
+		position: absolute;
+		top: 0;
+	}
+	.texto {
+		font-size: 15px;
+		text-align: justify;
+		padding: 0 0 0 75px;
+		position: relative;
+	}
+	
+	.toptexto {
+		padding: 0 0 0 75px;
+		position: relative;
+	}
+
+
+
+	/*Propiedades recientes*/
+	#propiedadesrecientes {
+		text-align: center;
+		font-size: 23px; 
+		color: #fff;
+		font-weight: bold;
+	}
+
+	.carousel-control2 {
+		width: 50px;
+		height: 50px;
+		padding: 10px 0 2px 0;
+	}
+
+
+	/*Slider inner*/
+	.caption1 {
+		width: 80%;
+	}
+	.caption2 {
+		width: 63%;
+	}
+	.caption3 {
+		width: 43%;
+	}
+	.caption4 {
+		width: 73%;
+	}
+	.caption5 {
+		width: 63%;
+	}
+	.caption5b {
+		width: 43%;
+	}
+	.caption6 {
+		width: 48%;
+	}
+
+	.titlecaption {
+		font-size: 18px;
+		padding-bottom: 9px;
+		font-weight: bold;
+	}
+
+	.captionp {
+		font-size: 12px;
+	}
+	
+	/*Testimonies*/
+	#testimonial {
+		width: 100%;
+	}
+
+	.slides {
+		font-size: 16px;
+		font-weight: bold;
+	}
+	/*Footer*/
+	footer {
+		border-top: 2px solid green;
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+		background-image: url('../img/footerback.png');
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+		
+	/*Navbar*/
+	.navbar-brand {
+		float: left;
+		height: 64px;
+		width: 180px;
+		padding: 0 10px 0 0;
+	}
+
+	.navbar-nav > li > a {
+		height: 43px;
+		padding: 0 auto;
+		font-size: 11px;
+		min-width: 45px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.navbar-fixed-top .navbar-right li a:hover {
+		height: 40px;
+		min-width: 43px;
+		padding: 0 auto;
+		background-color: green;
+		color: white;
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+		font-weight: normal;
+	}
+
+	
+	.navbar-fixed-top {
+		background-color: #fff;
+		width: 100%;
+		padding: 0 8px 0 0;
+	}
+	
+	.navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+		padding-right: 30px;
+	}
+	
+		/*Subheader*/
+	#subheader {
+    background: url("../img/bg-subheader.jpg") no-repeat scroll center top #eee;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    height: 70px;
+	}
+	
+	
+	
+	/*Slider inner*/
+	.caption1 {
+		width: 60%;
+	}
+
+	.caption2 {
+		width: 43%;
+	}
+	.caption3 {
+		width: 33%;
+	}
+	.caption4 {
+		width: 53%;
+	}
+	.caption5 {
+		width: 43%;
+	}
+	.caption5b {
+		width: 33%;
+	}
+	.caption6 {
+		width: 38%;
+	}
+
+	.titlecaption {
+		font-size: 20px;
+		padding-bottom: 9px;
+		font-weight: bold;
+	}
+
+	.captionp {
+		font-size: 15px;
+	}
+
+	.iconimage {
+		width: 14%;
+	}
+	
+	
+	/*CSS FOR OPPORTUNITY*/
+	.opportunity {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0px 0 30px 0;
+		
+	}
+
+	
+	#greatopportunity {
+		font-size: 22px;
+		text-align: center;
+	}
+	
+	#picopportunity {
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+		border: 6px solid #fff;
+		width: 100%;
+	}
+	
+	.opportunitydescrip {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.row-fluid  .span4  {
+    width: 50%;
+	}
+	
+	.bg-primary {
+		padding: 5px 9px 5px 9px;
+		font-size: 16px;
+		text-align: justify;
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+	}
+	
+	.bg-primary span {
+		display: none;
+	}
+	
+	.opportunityleft {
+		padding-bottom: 40px;
+	}
+	
+	.form {
+		width: 70%;
+		margin: 0 auto;
+	}
+	
+	/*CSS for recent properties*/
+	.carousel-control2 {
+		width: 50px;
+		height: 50px;
+		padding: 10px 19px 0px 0;
+		border: 2px solid #fff;
+	}
+	
+		/*CSS FOR 3 MIDDLE TEXTS: Respon, seriedad, etc*/
+	.iconimage {
+		width: 13%;
+		float: left;
+		padding: 0 14px 0 0;
+		left: 0;
+		position: absolute;
+		top: 0;
+	}
+	.texto {
+		font-size: 15px;
+		text-align: justify;
+		padding: 0 0 0 75px;
+		position: relative;
+	}
+	
+	.toptexto {
+		padding: 0 0 0 75px;
+		position: relative;
+	}
+	
+	
+	/*Testimonies*/
+	#testimonial {
+		width: 100%;
+	}
+
+	.slides {
+		font-size: 22px;
+		font-weight: bold;
+	}
+	
+	.property-item {
+		width: 30%;
+	}
+	
+	/*Footer*/
+	.footerpart {
+		width: 30%;
+	}
+	
+	footer {
+		border-top: 2px solid green;
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+		background-image: url('../img/footerback.png');
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+	
+	/*NavBAR*/
+	.navbar-brand {
+		float: left;
+		height: 70px;
+		width: 270px;
+		padding: 0 15px 0 0;
+	}
+	
+	
+	.navbar-nav > li > a {
+		height: 40px;
+		padding: 0 auto;
+		font-size: 13px;
+		min-width: 56px;
+	}
+
+	.navbar-fixed-top .navbar-right li a:hover {
+		height: 40px;
+		padding: 0 auto;
+		background-color: green;
+		color: white;
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+	}
+
+	.navbar-nav > li > .iniciomenu {
+		height: 40px;
+		width: 20px;
+	}
+	
+	.navbar-fixed-top {
+		background-color: #fff;
+		width: 100%;
+		padding: 0 10px 0 0;
+	}
+	
+	
+		/*Subheader*/
+	#subheader {
+    margin-top: 45px;
+    background: url("../img/bg-subheader.jpg") no-repeat scroll center top #eee;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    height: 100px;
+	}
+	
+	#subheader h1 {
+	padding: 20px 0 0px 0;
+	}
+	
+	/*Main slider inner*/
+	.caption1 {
+		width: 60%;
+		float: left;
+	}
+	.caption2 {
+		width: 43%;
+		float: left;
+	}
+	.caption3 {
+		width: 33%;
+		float: left;
+	}
+	.caption4 {
+		width: 53%;
+		float: left;
+	}
+	.caption5 {
+		width: 43%;
+		float: left;
+	}
+	.caption5b {
+		width: 33%;
+		float: left;
+	}
+	.caption6 {
+		width: 38%;
+		float: left;
+	}
+
+	.titlecaption {
+		font-size: 20px;
+		padding-bottom: 9px;
+		font-weight: bold;
+	}
+
+	.captionp {
+		font-size: 15px;
+	}
+	
+		
+	#this-carousel-id {
+		padding-top: 80px;
+	}
+
+	/*CSS FOR OPPORTUNITY*/
+	.opportunity {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0px 0 30px 0;
+		
+	}
+
+	
+	#greatopportunity {
+		font-size: 22px;
+		text-align: center;
+	}
+	
+	#picopportunity {
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+		border: 6px solid #fff;
+		width: 100%;
+	}
+	
+	.opportunitydescrip {
+		width: 62%;
+		margin: 0 auto;
+	}
+	
+	.row-fluid  .span4  {
+    width: 57%;
+	}
+	
+	.bg-primary {
+		padding: 5px 9px 5px 9px;
+		font-size: 16px;
+		text-align: justify;
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+	}
+	
+	.bg-primary span {
+		display: none;
+	}
+	
+	.opportunityleft {
+		padding-bottom: 40px;
+	}
+	
+	.form {
+		width: 10%;	
+		padding-right: 50px;	
+	}
+	
+	/*CSS for recent properties*/
+	.carousel-control2 {
+		width: 50px;
+		height: 50px;
+		padding: 10px 19px 0px 0;
+		border: 2px solid #fff;
+	}
+	
+		/*CSS FOR 3 MIDDLE TEXTS: Respon, seriedad, etc*/
+	.iconimage {
+		width: 22%;
+		float: left;
+		padding: 0 5px 0 0;
+	}
+	.texto {
+		font-size: 15px;
+		text-align: justify;
+	}
+	
+	
+	
+	/*Testimonies*/
+	#testimonial {
+		width: 100%;
+	}
+
+	.slides {
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.property-item {
+		width: 30%;
+	}
+	
+	/*Footer*/
+	.footerpart {
+		width: 31%;
+	}
+
+	.widget {
+		width: 100%;
+	}
+
+	.titlesearch {
+		font-size: 35px;
+		padding-top: 0;
+	}
+	/*Footer*/
+	footer {
+		border-top: 2px solid green;
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+		background-image: url('../img/footerback.png');
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+	/*Navigation bar*/
+	.navbar-fixed-top {
+		background-color: #fff;
+		border-bottom: 1px solid black;
+	}
+	
+	.navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+		padding-left: 0;
+		padding-right: 70px;
+	}
+
+	.navbar-collapse.collapse {
+		display: block !important;
+		height: auto !important;
+		overflow: visible !important;
+		padding-bottom: 0;
+	}
+
+	.navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse a {
+		text-align: center;
+	}
+
+	.navbar-nav > li > a {
+		height: 40px;
+		padding: 0 auto;
+	}
+
+	.navbar-fixed-top .navbar-right li a:hover {
+		height: 40px;
+		padding: 0 auto;
+		background-color: green;
+		color: white;
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+	}
+
+	.navbar-nav > li > .iniciomenu {
+		height: 40px;
+		width: 60px;
+	}
+	
+	.navbar-brand {
+		float: left;
+		height: 70px;
+		width: 420px;
+		padding: 0 15px 0 0;
+	}
+	
+	/*Subheader*/
+	#subheader {
+    margin-top: 45px;
+    background: url("../img/bg-subheader.jpg") no-repeat scroll center top #eee;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    height: 100px;
+	}
+	
+	#subheader h1 {
+	padding: 20px 0 0px 0;
+	}
+	
+	
+	/*CSS for Captions in inner slider*/
+	.caption1 {
+		width: 40%;
+		float: left;
+	}
+
+	.caption2 {
+		width: 23%;
+		float: left;
+	}
+	.caption3 {
+		width: 23%;
+		float: left;
+	}
+	.caption4 {
+		width: 40%;
+		float: left;
+	}
+	.caption5 {
+		width: 23%;
+		float: left;
+	}
+	.caption5b {
+		width: 23%;
+		float: left;
+	}
+	.caption6 {
+		width: 20%;
+		float: left;
+	}
+
+	.titlecaption {
+		font-size: 20px;
+		padding-bottom: 9px;
+		font-weight: bold;
+	}
+
+	.captionp {
+		font-size: 15px;
+	}
+	
+	#this-carousel-id {
+		padding-top: 80px;
+	}
+	
+	
+	/*CSS FOR 3 MIDDLE TEXTS: Respon, seriedad, etc*/
+	.iconimage {
+		width: 18%;
+		float: left;
+		padding: 0 5px 0 0;
+	}
+	.texto {
+		font-size: 18px;
+		text-align: justify;
+	}
+	
+	/*Css for testimonies*/
+	#testimonial {
+		width: 100%;
+	}
+
+	.slides {
+		font-size: 24px;
+		font-weight: bold;
+	}
+
+	.property-item {
+		width: 30%;
+	}
+
+	.footerpart {
+		width: 30%;
+	}
+
+	.widget {
+		width: 100%;
+	}
+
+	.titlesearch {
+		font-size: 25px;
+		padding-top: 0;
+	}
+	
+
+	
+
+	.contactoindex {
+		text-align: center;
+	}
+
+	
+
+	
+	
+	/*CSS FOR OPPORTUNITY*/
+	.opportunity {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		padding: 20px 140px 0px 0px;
+		border: 1px solid green;
+	}
+	
+	#picopportunity {
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+		border: 6px solid #fff;
+	}
+	
+	#greatopportunity {
+		font-size: 28px;
+		text-align: center;
+	}
+	
+	.opportunitydescrip {
+		width: 75%;
+		margin: 0 auto;
+	}
+	
+	.row-fluid  .span4  {
+    width: 57%;
+	}
+	
+	.bg-primary {
+		padding: 5px 9px 5px 9px;
+		font-size: 20px;
+		text-align: justify;
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+	}
+	
+	.opportunityleft {
+		padding-top: 20px;
+	}
+	
+	.form {
+		width: 5%;
+	}
+	
+	/*Propiedades recientes*/
+	#propiedadesrecientes {
+		text-align: center;
+		font-size: 26px; 
+		color: #fff;
+	}
+	
+	/*Footer*/
+	footer {
+		border-top: 2px solid green;
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+		background-image: url('../img/footerback.png');
+	}
+	
+	.picturesfooter img {
+		border: 6px solid #fff;
+	}
+	
+
+	
+}
+
